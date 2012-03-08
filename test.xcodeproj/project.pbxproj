@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7A05596615087C1F006E4621 /* ProxyScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A05596515087C1F006E4621 /* ProxyScrollView.m */; };
 		7A7FA9D214FF204000802392 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A7FA9D114FF204000802392 /* UIKit.framework */; };
 		7A7FA9D414FF204000802392 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A7FA9D314FF204000802392 /* Foundation.framework */; };
 		7A7FA9D614FF204000802392 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A7FA9D514FF204000802392 /* CoreGraphics.framework */; };
@@ -16,8 +17,7 @@
 		7A7FA9EA14FF204000802392 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A7FA9E914FF204000802392 /* SenTestingKit.framework */; };
 		7A7FA9EB14FF204000802392 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A7FA9D114FF204000802392 /* UIKit.framework */; };
 		7A7FA9EC14FF204000802392 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A7FA9D314FF204000802392 /* Foundation.framework */; };
-		7A7FA9F414FF204000802392 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7A7FA9F214FF204000802392 /* InfoPlist.strings */; };
-		7A7FA9F714FF204000802392 /* testTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A7FA9F614FF204000802392 /* testTests.m */; };
+		7A7FAA0214FF209100802392 /* sortCtrl.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A7FAA0114FF209100802392 /* sortCtrl.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,22 +31,22 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7A05596415087C1F006E4621 /* ProxyScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProxyScrollView.h; sourceTree = "<group>"; };
+		7A05596515087C1F006E4621 /* ProxyScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProxyScrollView.m; sourceTree = "<group>"; };
 		7A7FA9CD14FF204000802392 /* test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = test.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A7FA9D114FF204000802392 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		7A7FA9D314FF204000802392 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		7A7FA9D514FF204000802392 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		7A7FA9D914FF204000802392 /* test-Info.plist */ = {isa = PBXFileReference; path = "test-Info.plist"; sourceTree = "<group>"; };
+		7A7FA9D914FF204000802392 /* test-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "test-Info.plist"; sourceTree = "<group>"; };
 		7A7FA9DB14FF204000802392 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		7A7FA9DD14FF204000802392 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		7A7FA9DF14FF204000802392 /* test-Prefix.pch */ = {isa = PBXFileReference; path = "test-Prefix.pch"; sourceTree = "<group>"; };
-		7A7FA9E014FF204000802392 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		7A7FA9DF14FF204000802392 /* test-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "test-Prefix.pch"; sourceTree = "<group>"; };
+		7A7FA9E014FF204000802392 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		7A7FA9E114FF204000802392 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		7A7FA9E814FF204000802392 /* testTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A7FA9E914FF204000802392 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		7A7FA9F114FF204000802392 /* testTests-Info.plist */ = {isa = PBXFileReference; path = "testTests-Info.plist"; sourceTree = "<group>"; };
-		7A7FA9F314FF204000802392 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		7A7FA9F514FF204000802392 /* testTests.h */ = {isa = PBXFileReference; path = testTests.h; sourceTree = "<group>"; };
-		7A7FA9F614FF204000802392 /* testTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testTests.m; sourceTree = "<group>"; };
+		7A7FAA0014FF209100802392 /* sortCtrl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sortCtrl.h; sourceTree = "<group>"; };
+		7A7FAA0114FF209100802392 /* sortCtrl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = sortCtrl.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,7 +77,6 @@
 			isa = PBXGroup;
 			children = (
 				7A7FA9D714FF204000802392 /* test */,
-				7A7FA9EF14FF204000802392 /* testTests */,
 				7A7FA9D014FF204000802392 /* Frameworks */,
 				7A7FA9CE14FF204000802392 /* Products */,
 			);
@@ -106,9 +105,13 @@
 		7A7FA9D714FF204000802392 /* test */ = {
 			isa = PBXGroup;
 			children = (
+				7A05596415087C1F006E4621 /* ProxyScrollView.h */,
+				7A05596515087C1F006E4621 /* ProxyScrollView.m */,
 				7A7FA9E014FF204000802392 /* AppDelegate.h */,
 				7A7FA9E114FF204000802392 /* AppDelegate.m */,
 				7A7FA9D814FF204000802392 /* Supporting Files */,
+				7A7FAA0014FF209100802392 /* sortCtrl.h */,
+				7A7FAA0114FF209100802392 /* sortCtrl.m */,
 			);
 			path = test;
 			sourceTree = "<group>";
@@ -120,25 +123,6 @@
 				7A7FA9DA14FF204000802392 /* InfoPlist.strings */,
 				7A7FA9DD14FF204000802392 /* main.m */,
 				7A7FA9DF14FF204000802392 /* test-Prefix.pch */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		7A7FA9EF14FF204000802392 /* testTests */ = {
-			isa = PBXGroup;
-			children = (
-				7A7FA9F514FF204000802392 /* testTests.h */,
-				7A7FA9F614FF204000802392 /* testTests.m */,
-				7A7FA9F014FF204000802392 /* Supporting Files */,
-			);
-			path = testTests;
-			sourceTree = "<group>";
-		};
-		7A7FA9F014FF204000802392 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				7A7FA9F114FF204000802392 /* testTests-Info.plist */,
-				7A7FA9F214FF204000802392 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -222,7 +206,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7A7FA9F414FF204000802392 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,6 +234,8 @@
 			files = (
 				7A7FA9DE14FF204000802392 /* main.m in Sources */,
 				7A7FA9E214FF204000802392 /* AppDelegate.m in Sources */,
+				7A7FAA0214FF209100802392 /* sortCtrl.m in Sources */,
+				7A05596615087C1F006E4621 /* ProxyScrollView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,7 +243,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7A7FA9F714FF204000802392 /* testTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,14 +265,6 @@
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		7A7FA9F214FF204000802392 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				7A7FA9F314FF204000802392 /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
@@ -297,7 +273,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
-				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -323,7 +299,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
-				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -342,6 +318,7 @@
 		7A7FA9FB14FF204000802392 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "test/test-Prefix.pch";
 				INFOPLIST_FILE = "test/test-Info.plist";
@@ -353,6 +330,7 @@
 		7A7FA9FC14FF204000802392 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "test/test-Prefix.pch";
 				INFOPLIST_FILE = "test/test-Info.plist";
@@ -414,6 +392,7 @@
 				7A7FA9FC14FF204000802392 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7A7FA9FD14FF204000802392 /* Build configuration list for PBXNativeTarget "testTests" */ = {
 			isa = XCConfigurationList;
@@ -422,6 +401,7 @@
 				7A7FA9FF14FF204000802392 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
