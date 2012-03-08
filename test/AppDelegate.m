@@ -14,9 +14,13 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-    // Override point for customization after application launch.
-    self.window.backgroundColor = [UIColor whiteColor];
+    UIWindow *win = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    win.backgroundColor = [UIColor whiteColor];
+    sortCtrl *sort = [[sortCtrl alloc] init];
+    win.rootViewController = sort;
+    [sort release];
+    self.window = win;
+    [win release];
     [self.window makeKeyAndVisible];
     return YES;
 }
@@ -58,6 +62,11 @@
      Save data if appropriate.
      See also applicationDidEnterBackground:.
      */
+}
+
+- (void)dealloc {
+    self.window = nil;
+    [super dealloc];
 }
 
 @end
